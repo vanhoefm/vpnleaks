@@ -67,6 +67,7 @@ To inspect the traffic of any client connected to the AP, start Wireshark on the
 
 
 **Cite our work**
+
 Please use the following bibtex code to cite our work:
 ```
 @InProceedings{bypassVPN,
