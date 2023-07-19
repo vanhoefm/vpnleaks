@@ -68,10 +68,11 @@ To inspect the traffic of any client connected to the AP, start Wireshark on the
 
 **Cite our work**
 Please use the following bibtex code to cite our work:
-
+```
 @InProceedings{bypassVPN,
   title={{Bypassing Tunnels: Leaking VPN Client Traffic by Abusing Routing Tables}},
   author={Nian Xue, Yashaswi Malla, Zihang Xia, Christina Pöpper, Mathy Vanhoef},
   booktitle={32nd USENIX Security Symposium (USENIX Security 23)},
   year={2023}
 }
+```
