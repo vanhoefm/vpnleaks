@@ -64,3 +64,14 @@ To inspect the traffic of any client connected to the AP, start Wireshark on the
 1. Use the Wireshark filter ‘tcp.flags.syn == 1’ to filter for plaintext TCP SYN packets. If there are no plaintext TCP SYNs in Wireshark, then the VPN client is not vulnerable.  
    If the VPN protocol is using TCP or UDP, then also try to visit `http://$VPN\_SERVERIP:$PORT` incl. the port used by the server (typically $PORT = 80 for http traffic).
 1. In order to test for plaintext DNS, one may further run the following test: In case there are no plaintext TCP SYN packets, the next step is to test whether the VPN client used plaintext DNS to find the VPN server’s IP address. To determine this, use the Wireshark filter ‘dns.a == $VPN\_SERVERIP’. If there are any results, then the VPN client is highly likely vulnerable.
+
+
+**Cite our work**
+Please use the following bibtex code to cite our work:
+
+@InProceedings{bypassVPN,
+  title={{Bypassing Tunnels: Leaking VPN Client Traffic by Abusing Routing Tables}},
+  author={Nian Xue, Yashaswi Malla, Zihang Xia, Christina Pöpper, Mathy Vanhoef},
+  booktitle={32nd USENIX Security Symposium (USENIX Security 23)},
+  year={2023}
+}
