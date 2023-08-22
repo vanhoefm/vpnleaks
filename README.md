@@ -19,10 +19,14 @@ You can use the following Bibtex entry to cite our work:
 	@inproceedings{usenix2023-tunnelcrack,
 	  author = {Nian Xue and Yashaswi Malla and Zihang Xia and Christina P\"opper and Mathy Vanhoef},
 	  title = {Bypassing Tunnels: Leaking {VPN} Client Traffic by Abusing Routing Tables},
-	  booktitle = {Proceedings of the 32th {USENIX} Security Symposium},
+	  booktitle = {32nd USENIX Security Symposium (USENIX Security 23)},
 	  year = {2023},
-	  month = {August},
-	  publisher = {{USENIX} Association}
+	  isbn = {978-1-939133-37-3},
+	  address = {Anaheim, CA},
+	  pages = {5719--5736},
+	  url = {https://www.usenix.org/conference/usenixsecurity23/presentation/xue},
+	  publisher = {USENIX Association},
+	  month = aug,
 	}
 
 <a id="id-explanation"></a>
